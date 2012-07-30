@@ -1,0 +1,9 @@
+#testing Spaceships - glider.
+
+# .X...
+# ..X..
+# XXX..
+
+gridsize:20,20
+ticks:30
+alive:1,0;2,1;0,2;1,2;2,2;

@@ -1,0 +1,11 @@
+#testing still life - boat.
+
+# .....
+# .XX..
+# .X.X.
+# ..X..
+# .....
+
+gridsize:5,5
+ticks:10
+alive:1,1;2,1;1,2;3,2;2,3;

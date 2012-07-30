@@ -1,0 +1,10 @@
+#testing still life - block.
+
+# ....
+# .XX.
+# .XX.
+# ....
+
+gridsize:4,4
+ticks:10
+alive:1,1;1,2;2,1;2,2

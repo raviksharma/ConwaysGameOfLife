@@ -1,0 +1,11 @@
+#testing Oscillators - blinker.
+
+# .....
+# ..X..
+# ..X..
+# ..X..
+# .....
+
+gridsize:5,5
+ticks:10
+alive:2,1;2,2;2,3;
