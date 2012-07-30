@@ -21,8 +21,8 @@ Toy Implementation of Conway's game of life to practice C++/OOP
 executable [&lt;option> &lt;value>]
 
 options	:<br/>
--run		: <test case file>		//contains test case<br/>
--output	: <test case result file>	//contains result of the test case<br/>
+-run	: &lt;test case file>		//contains test case<br/>
+-output	: &lt;test case result file>	//contains result of the test case<br/>
 -format	: grid|text			//grid - 2D view of the Grid (X - alive cell, . - dead cell), text - test case compliant view, contains alive cell indices.
 
 ********All command line arguments are mandatory********
@@ -32,7 +32,7 @@ options	:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;/src 			- Source code<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;/test\_data		- test\_data<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/test\_cases 	- test cases 	(each file case<x>.txt contains 1 test case, see file for details, x = case Id)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/results	- test results	(each file <br/>filename<x>\_<y>.txt contains 1 result, x = test case case<x>.txt in test_cases, if y=1 : grid format and if y=2 text format)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/results	- test results	(each file filename<x>\_<y>.txt contains 1 result, x = test case case<x>.txt in test_cases, if y=1 : grid format and if y=2 text format)<br/>
 
 
 ###Test case format###
