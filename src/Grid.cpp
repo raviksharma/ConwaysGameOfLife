@@ -17,8 +17,8 @@ namespace CGOL
 
 	Grid::Grid( const Grid& other)
 		  :
-	m_data_1(other.current().x_size(), other.current().y_size()),
-	m_data_2(other.current().x_size(), other.current().y_size()),
+	m_data_1(other.m_data_1),
+	m_data_2(other.m_data_2),
 	m_current(&m_data_1),
 	m_other(&m_data_2),
 	m_evolution_function(other.m_evolution_function)

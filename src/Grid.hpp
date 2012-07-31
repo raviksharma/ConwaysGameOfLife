@@ -17,8 +17,8 @@ namespace CGOL
 		  const size_t& /*Y_max*/,
 		  const EvolutionFunction_t&);
 
-	Grid::Grid( const Grid& other);
-	Grid& Grid::operator=( const Grid& other);
+	Grid( const Grid& other);
+	Grid& operator=( const Grid& other);
 
     void set( const size_t& /*x*/, const size_t& /*y*/, const bool&);
 
