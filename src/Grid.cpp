@@ -20,7 +20,7 @@ namespace CGOL
 	m_data_1(other.m_data_1),
 	m_data_2(other.m_data_2),
 	m_current(other.m_current==&other.m_data_1?&m_data_1:&m_data_2),
-	m_other(other.m_current==&other.m_data_2?&m_data_2:&m_data_1),
+	m_other(other.m_other==&other.m_data_2?&m_data_2:&m_data_1),
 	m_evolution_function(other.m_evolution_function)
 	{
 	}
@@ -32,7 +32,7 @@ namespace CGOL
 			m_data_1 = other.m_data_1;
 			m_data_2 = other.m_data_2;
 			m_current = other.m_current==&other.m_data_1?&m_data_1:&m_data_2;
-			m_other = other.m_current==&other.m_data_2?&m_data_2:&m_data_1;
+			m_other = other.m_other==&other.m_data_2?&m_data_2:&m_data_1;
 			m_evolution_function = other.m_evolution_function;
 		}
 		return *this;
